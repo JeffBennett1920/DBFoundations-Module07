@@ -10,15 +10,15 @@ It should be noted, however, that in some cases a view with simpler syntax might
 
 #### **Scalar, Inline and Multi-Statement Functions** 
 Functions range from the simpler to the more complex variety:
-
-##### Scalar Function -		
-The scalar valued function *returns a single value* .  A scalar function can optionally take one or more parameters using the @variable syntax, make a calculation and return a single value.
-    
-##### Inline Table Function -		
-The inline table valued function *returns a table*.  The Return Table As clauses are followed by a Return( ) statement which contains the main body of the function, including the Select, From, Order By and other statements within its parentheses.
-  
-##### Multi-Statement Function - 	
-The multi-statement table valued function (MSTVF) *returns a table variable*.  The MSTVF returns a specifically defined table variable using the @variable syntax.  The columns of the function are then defined followed by the As clause.  MSTVFs typically use Begin and End syntax to bracket the multiple statements comprising the function’s main body, and then conclude with a Return statement.
+	
+#### *The scalar valued function returns a single value*  
+A scalar function can optionally take one or more parameters using the @variable syntax, make a calculation and return a single value.
+    	
+#### *The inline table valued function returns a table*  
+The Return Table As clauses are followed by a Return( ) statement which contains the main body of the function, including the Select, From, Order By and other statements within its parentheses.
+  	
+#### *The multi-statement table valued function (MSTVF) *returns a table variable*  
+The MSTVF returns a specifically defined table variable using the @variable syntax.  The columns of the function are then defined followed by the As clause.  MSTVFs typically use Begin and End syntax to bracket the multiple statements comprising the function’s main body, and then conclude with a Return statement.
 
 #### **Summary** 
 SQL Server User Defined Functions enable the user to encapsulate and reuse code which can be employed in specially designed functions, and then used as modular building blocks in larger functions and queries. 
