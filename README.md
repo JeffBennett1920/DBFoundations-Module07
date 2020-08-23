@@ -17,7 +17,7 @@ A scalar function can optionally take one or more parameters using the @variable
 #### *The inline table valued function returns a table*  
 The Return Table As clauses are followed by a Return( ) statement which contains the main body of the function, including the Select, From, Order By and other statements within its parentheses.
   	
-#### *The multi-statement table valued function (MSTVF) *returns a table variable*  
+#### *The multi-statement table valued function (MSTVF) returns a table variable*  
 The MSTVF returns a specifically defined table variable using the @variable syntax.  The columns of the function are then defined followed by the As clause.  MSTVFs typically use Begin and End syntax to bracket the multiple statements comprising the function’s main body, and then conclude with a Return statement.
 
 #### **Summary** 
